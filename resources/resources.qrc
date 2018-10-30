@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="Icons">
+    <file>if_Preview_131689.ico</file>
+    <file>if_Add_131846.ico</file>
+    <file>if_Cancel_131742.ico</file>
+    <file>if_Ok_131848.ico</file>
+    <file>if_Pencil_131733.ico</file>
+  </qresource>
+</RCC>

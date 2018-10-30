@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'c:\Users\Boruto\Desktop\Chio\Python\CRUD-Wishlist\forms\main.ui'
+#
+# Created by: PyQt5 UI code generator 5.11.3
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(787, 403)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(MainWindow.sizePolicy().hasHeightForWidth())
+        MainWindow.setSizePolicy(sizePolicy)
+        MainWindow.setBaseSize(QtCore.QSize(700, 450))
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(11)
+        MainWindow.setFont(font)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(":/Icons/if_Preview_131689.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        MainWindow.setWindowIcon(icon)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.verticalLayout = QtWidgets.QVBoxLayout(self.centralwidget)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.splitter_2 = QtWidgets.QSplitter(self.centralwidget)
+        self.splitter_2.setOrientation(QtCore.Qt.Horizontal)
+        self.splitter_2.setObjectName("splitter_2")
+        self.listView = QtWidgets.QListView(self.splitter_2)
+        self.listView.setMaximumSize(QtCore.QSize(250, 16777215))
+        self.listView.setObjectName("listView")
+        self.InformationBox = QtWidgets.QGroupBox(self.splitter_2)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.InformationBox.sizePolicy().hasHeightForWidth())
+        self.InformationBox.setSizePolicy(sizePolicy)
+        self.InformationBox.setTitle("")
+        self.InformationBox.setObjectName("InformationBox")
+        self.verticalLayout.addWidget(self.splitter_2)
+        self.splitter = QtWidgets.QSplitter(self.centralwidget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(10)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.splitter.sizePolicy().hasHeightForWidth())
+        self.splitter.setSizePolicy(sizePolicy)
+        self.splitter.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        self.splitter.setAcceptDrops(False)
+        self.splitter.setLayoutDirection(QtCore.Qt.LeftToRight)
+        self.splitter.setFrameShape(QtWidgets.QFrame.NoFrame)
+        self.splitter.setOrientation(QtCore.Qt.Horizontal)
+        self.splitter.setOpaqueResize(False)
+        self.splitter.setHandleWidth(39)
+        self.splitter.setChildrenCollapsible(False)
+        self.splitter.setObjectName("splitter")
+        self.AddButton = QtWidgets.QPushButton(self.splitter)
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap(":/Icons/if_Add_131846.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.AddButton.setIcon(icon1)
+        self.AddButton.setIconSize(QtCore.QSize(32, 32))
+        self.AddButton.setObjectName("AddButton")
+        self.DeleteButton = QtWidgets.QPushButton(self.splitter)
+        icon2 = QtGui.QIcon()
+        icon2.addPixmap(QtGui.QPixmap(":/Icons/if_Cancel_131742.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.DeleteButton.setIcon(icon2)
+        self.DeleteButton.setIconSize(QtCore.QSize(32, 32))
+        self.DeleteButton.setAutoRepeatInterval(100)
+        self.DeleteButton.setFlat(False)
+        self.DeleteButton.setObjectName("DeleteButton")
+        self.EditButton = QtWidgets.QPushButton(self.splitter)
+        icon3 = QtGui.QIcon()
+        icon3.addPixmap(QtGui.QPixmap(":/Icons/if_Pencil_131733.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.EditButton.setIcon(icon3)
+        self.EditButton.setIconSize(QtCore.QSize(32, 32))
+        self.EditButton.setObjectName("EditButton")
+        self.verticalLayout.addWidget(self.splitter)
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "Wishlist"))
+        self.AddButton.setText(_translate("MainWindow", "Добавить"))
+        self.DeleteButton.setText(_translate("MainWindow", "Удалить"))
+        self.EditButton.setText(_translate("MainWindow", "Редактировать"))
+
+import resources_rc
