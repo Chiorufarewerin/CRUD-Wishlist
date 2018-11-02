@@ -12,3 +12,6 @@ class Database:
 
     def disconnect(self):
         '''Disconnect from database.'''
+
+    def _runquery(self, query, values=None):
+        '''Run query and fetch data'''
