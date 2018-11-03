@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.pythonPath": "C:\\Users\\Boruto\\Anaconda3\\python.exe",
+		"python.linting.pylintArgs": [
+			"--extension-pkg-whitelist=PyQt5"
+		],
+		"cSpell.words": [
+			"configdb",
+			"pycache"
+		],
+		"python.linting.flake8Args": ["--config C:\\Users\\Boruto\\Desktop\\Chio\\Python\\CRUD-Wishlist\\.flake8","C:\\Users\\Boruto\\Desktop\\Chio\\Python\\CRUD-Wishlist\\"],
+	}
+}
