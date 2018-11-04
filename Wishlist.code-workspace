@@ -11,8 +11,10 @@
 		],
 		"cSpell.words": [
 			"configdb",
+			"inno",
+			"lastrowid",
 			"pycache"
 		],
-		"python.linting.flake8Args": ["--config C:\\Users\\Boruto\\Desktop\\Chio\\Python\\CRUD-Wishlist\\.flake8","C:\\Users\\Boruto\\Desktop\\Chio\\Python\\CRUD-Wishlist\\"],
+		"python.linting.flake8Args": ["--exclude=.git,.vscode,forms,resources,__pycache__,docs/source/conf.py,old,build,dist", "--ignore=F401", "--verbose"],
 	}
 }

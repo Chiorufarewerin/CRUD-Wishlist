@@ -1,6 +1,7 @@
 '''Main file of program.'''
 
 import sys
+import db
 from PyQt5.QtWidgets import QApplication, QDialog, QMainWindow
 from forms.Ui_main import Ui_MainWindow
 

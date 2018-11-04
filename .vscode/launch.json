@@ -26,17 +26,11 @@
             "console": "integratedTerminal"
         },
         {
-            "name": "Python: Django",
+            "name": "Python: Main",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/manage.py",
+            "program": "${workspaceFolder}/main.py",
             "console": "integratedTerminal",
-            "args": [
-                "runserver",
-                "--noreload",
-                "--nothreading"
-            ],
-            "django": true
         },
         {
             "name": "Python: Flask",
