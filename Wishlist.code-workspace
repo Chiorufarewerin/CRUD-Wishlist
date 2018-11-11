@@ -12,10 +12,15 @@
 			"--extension-pkg-whitelist=PyQt5"
 		],
 		"cSpell.words": [
+			"artur",
 			"configdb",
+			"fname",
+			"g",
+			"gmail",
 			"inno",
 			"lastrowid",
-			"pycache"
+			"pycache",
+			"sysconfig"
 		],
 		"python.linting.flake8Args": ["--ignore=F401", "--verbose"],
 	}
