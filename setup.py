@@ -12,6 +12,8 @@ def read(fname):
         return f.read()
 
 
+packages = find_packages()
+
 setup(
     name="CRUD-Wishlist",
     version="0.2",
@@ -24,7 +26,7 @@ setup(
     license="MIT",
     platform="Windows",
     url="https://github.com/Chiorufarewerin/CRUD-Wishlist",
-    packages=find_packages(),
+    packages=packages,
     classifiers=[
         'Development Status :: 3 - Alpha',
         "Programming Language :: Python :: 3",
