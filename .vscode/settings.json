@@ -5,6 +5,20 @@
     "python.linting.flake8Enabled": true,
     "python.linting.ignorePatterns": [
         ".vscode/*.py",
-        "**/site-packages/**/*.py"
+        "**/site-packages/**/*.py",
+        "**/forms/**/*.py",
+        "**/resources/**/*.py"
+    ],
+    "cSpell.ignorePaths": [
+        "**/package-lock.json",
+        "**/node_modules/**",
+        "**/vscode-extension/**",
+        "**/.git/**",
+        ".vscode",
+        "typings",
+        ".vscode/*.py",
+        "**/site-packages/**",
+        "**/forms/**",
+        "**/resources/**"
     ]
 }

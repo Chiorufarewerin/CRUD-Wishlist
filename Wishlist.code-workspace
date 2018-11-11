@@ -2,10 +2,12 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../../../../.vscode/templates"
 		}
 	],
 	"settings": {
-		"python.pythonPath": "C:\\Users\\Boruto\\Anaconda3\\python.exe",
 		"python.linting.pylintArgs": [
 			"--extension-pkg-whitelist=PyQt5"
 		],
@@ -15,6 +17,6 @@
 			"lastrowid",
 			"pycache"
 		],
-		"python.linting.flake8Args": ["--exclude=.git,.vscode,forms,resources,__pycache__,docs/source/conf.py,old,build,dist", "--ignore=F401", "--verbose"],
+		"python.linting.flake8Args": ["--ignore=F401", "--verbose"],
 	}
 }
