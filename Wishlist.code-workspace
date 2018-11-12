@@ -1,6 +1,9 @@
 {
 	"folders": [
 		{
+			"path": "CRUD-Wishlist"
+		},
+		{
 			"path": "."
 		},
 		{
@@ -22,6 +25,6 @@
 			"pycache",
 			"sysconfig"
 		],
-		"python.linting.flake8Args": ["--ignore=F401", "--verbose"],
+		"python.linting.flake8Args": ["--ignore=F401,F403", "--verbose"],
 	}
 }
