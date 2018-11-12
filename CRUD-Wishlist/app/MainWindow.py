@@ -1,7 +1,5 @@
-'''Main file of program.'''
+'''Start main form'''
 
-import sys
-import db
 from PyQt5.QtWidgets import QApplication, QDialog, QMainWindow
 from forms.Ui_main import Ui_MainWindow
 
@@ -13,13 +11,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.setupUi(self)
 
 
-def main():
+def start(argv):
     '''Start application function.'''
-    app = QApplication(sys.argv)
+    app = QApplication(argv)
     windows = MainWindow()
     windows.show()
     app.exec_()
-
-
-if __name__ == '__main__':
-    main()
