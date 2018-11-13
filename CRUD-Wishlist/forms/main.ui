@@ -142,11 +142,11 @@
    <bool>false</bool>
   </property>
   <property name="windowTitle">
-   <string>Wishlist</string>
+   <string>Список желаний</string>
   </property>
   <property name="windowIcon">
    <iconset resource="../resources/resources.qrc">
-    <normaloff>:/Icons/if_Preview_131689.ico</normaloff>:/Icons/if_Preview_131689.ico</iconset>
+    <normaloff>:/Icons/icon_window</normaloff>:/Icons/icon_window</iconset>
   </property>
   <property name="toolTip">
    <string/>
@@ -440,7 +440,7 @@ background-color: rgb(250, 250, 250);</string>
                </property>
                <property name="icon">
                 <iconset resource="../resources/resources.qrc">
-                 <normaloff>:/Icons/if_Add_131846.ico</normaloff>:/Icons/if_Add_131846.ico</iconset>
+                 <normaloff>:/Icons/icon_add</normaloff>:/Icons/icon_add</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -475,7 +475,7 @@ background-color: rgb(250, 250, 250);</string>
                </property>
                <property name="icon">
                 <iconset resource="../resources/resources.qrc">
-                 <normaloff>:/Icons/if_Pencil_131733.ico</normaloff>:/Icons/if_Pencil_131733.ico</iconset>
+                 <normaloff>:/Icons/icon_edit</normaloff>:/Icons/icon_edit</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -510,7 +510,7 @@ background-color: rgb(250, 250, 250);</string>
                </property>
                <property name="icon">
                 <iconset resource="../resources/resources.qrc">
-                 <normaloff>:/Icons/if_Cancel_131742.ico</normaloff>:/Icons/if_Cancel_131742.ico</iconset>
+                 <normaloff>:/Icons/icon_remove</normaloff>:/Icons/icon_remove</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -1469,9 +1469,6 @@ p, li { white-space: pre-wrap; }
   <tabstop>DeleteButton</tabstop>
  </tabstops>
  <resources>
-  <include location="../resources/resources.qrc"/>
-  <include location="../resources/resources.qrc"/>
-  <include location="../resources/resources.qrc"/>
   <include location="../resources/resources.qrc"/>
  </resources>
  <connections/>

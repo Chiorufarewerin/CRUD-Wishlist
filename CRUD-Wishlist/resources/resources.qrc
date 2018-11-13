@@ -1,12 +1,13 @@
 <RCC>
   <qresource prefix="Icons">
-    <file>if_Preview_131689.ico</file>
-    <file>if_Add_131846.ico</file>
-    <file>if_Cancel_131742.ico</file>
-    <file>if_Ok_131848.ico</file>
-    <file>if_Pencil_131733.ico</file>
+    <file alias="icon_remove">remove.ico</file>
+    <file alias="icon_add">add.ico</file>
+    <file alias="icon_cancel">cancel.ico</file>
+    <file alias="icon_ok">ok.ico</file>
+    <file alias="icon_edit">pencil.ico</file>
+    <file alias="icon_window">preview.ico</file>
   </qresource>
   <qresource prefix="background">
-    <file>pattern-subtlepatterns.png</file>
+    <file alias="image_background">background.png</file>
   </qresource>
 </RCC>
