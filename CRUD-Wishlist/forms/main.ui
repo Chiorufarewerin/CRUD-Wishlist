@@ -799,7 +799,7 @@ border-top: 0px solid black;</string>
               </widget>
              </item>
              <item>
-              <widget class="QFrame" name="frame_2">
+              <widget class="QFrame" name="PhotoFrame">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                  <horstretch>0</horstretch>
@@ -809,8 +809,11 @@ border-top: 0px solid black;</string>
                <property name="cursor">
                 <cursorShape>ArrowCursor</cursorShape>
                </property>
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
                <property name="styleSheet">
-                <string notr="true">#frame_2{border: 1px solid black;
+                <string notr="true">#PhotoFrame{border: 1px solid black;
 border-bottom: 1px solid transparent;
 border-top: 0px solid transparent;}</string>
                </property>
@@ -825,13 +828,13 @@ border-top: 0px solid transparent;}</string>
                  <enum>QLayout::SetDefaultConstraint</enum>
                 </property>
                 <property name="leftMargin">
-                 <number>60</number>
+                 <number>20</number>
                 </property>
                 <property name="topMargin">
                  <number>20</number>
                 </property>
                 <property name="rightMargin">
-                 <number>60</number>
+                 <number>20</number>
                 </property>
                 <property name="bottomMargin">
                  <number>20</number>
@@ -870,10 +873,13 @@ background-color: rgb(62, 62, 62);</string>
                    <number>2</number>
                   </property>
                   <property name="text">
-                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;НЕТ ФОТО&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;НЕТ ФОТО&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  </property>
+                  <property name="textFormat">
+                   <enum>Qt::AutoText</enum>
                   </property>
                   <property name="scaledContents">
-                   <bool>false</bool>
+                   <bool>true</bool>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignCenter</set>
