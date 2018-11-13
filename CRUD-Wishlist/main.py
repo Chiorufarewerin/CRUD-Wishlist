@@ -7,8 +7,8 @@ import db
 
 def main():
     '''Start application function'''
-    MainWindow.main(sys.argv)
+    MainWindow.start(sys.argv)
 
 
 if __name__ == '__main__':
-    MainWindow.main(sys.argv)
+    main()
