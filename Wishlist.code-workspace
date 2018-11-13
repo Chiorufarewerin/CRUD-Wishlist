@@ -25,6 +25,6 @@
 			"pycache",
 			"sysconfig"
 		],
-		"python.linting.flake8Args": ["--ignore=F401,F403", "--verbose"],
+		"python.linting.flake8Args": ["--ignore=F401,F403,W503", "--verbose"],
 	}
 }
