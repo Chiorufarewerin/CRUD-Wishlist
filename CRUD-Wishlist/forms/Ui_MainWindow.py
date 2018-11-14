@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'c:\Users\Boruto\Desktop\Chio\github\CRUD-Wishlist\CRUD-Wishlist\forms\main.ui'
+# Form implementation generated from reading ui file 'c:\Users\Boruto\Desktop\Chio\github\CRUD-Wishlist\CRUD-Wishlist\forms\MainWindow.ui'
 #
 # Created by: PyQt5 UI code generator 5.11.3
 #
@@ -223,7 +223,7 @@ class Ui_MainWindow(object):
         self.DeleteButton.setIcon(icon3)
         self.DeleteButton.setIconSize(QtCore.QSize(32, 32))
         self.DeleteButton.setAutoRepeatInterval(100)
-        self.DeleteButton.setAutoDefault(True)
+        self.DeleteButton.setAutoDefault(False)
         self.DeleteButton.setDefault(True)
         self.DeleteButton.setFlat(False)
         self.DeleteButton.setObjectName("DeleteButton")

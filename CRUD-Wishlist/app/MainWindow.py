@@ -1,7 +1,7 @@
 '''Start main form'''
 
 from PyQt5.QtWidgets import QApplication, QDialog, QMainWindow
-from forms.Ui_main import Ui_MainWindow
+from forms.Ui_MainWindow import Ui_MainWindow
 
 
 class MainWindow(QMainWindow, Ui_MainWindow):

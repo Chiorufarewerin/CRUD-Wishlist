@@ -522,7 +522,7 @@ background-color: rgb(250, 250, 250);</string>
                 <number>100</number>
                </property>
                <property name="autoDefault">
-                <bool>true</bool>
+                <bool>false</bool>
                </property>
                <property name="default">
                 <bool>true</bool>

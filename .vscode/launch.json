@@ -8,7 +8,7 @@
             "name": "Python: Main",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/CRUD-Wishlist/main.py",
+            "program": "${workspaceFolder}/CRUD-Wishlist/wishlist.py",
             "console": "externalTerminal"
         },
         {
