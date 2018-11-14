@@ -6,3 +6,7 @@ dist/
 __pycache__/
 *.so
 *~
+
+urls.txt
+main.spec
+build.bat
